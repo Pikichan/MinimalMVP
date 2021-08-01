@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MinimalMVP
 //
-//  Created by 菊辻みやこ on 2021/08/01.
+//  Created by Miyako Kikutsuji on 2021/08/01.
 //
 
 import UIKit

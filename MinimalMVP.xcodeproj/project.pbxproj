@@ -13,6 +13,8 @@
 		438BE0B226B69D7000ED939B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438BE0B026B69D7000ED939B /* Main.storyboard */; };
 		438BE0B426B69D7300ED939B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438BE0B326B69D7300ED939B /* Assets.xcassets */; };
 		438BE0B726B69D7300ED939B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438BE0B526B69D7300ED939B /* LaunchScreen.storyboard */; };
+		438BE0BF26B6A14600ED939B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438BE0BE26B6A14600ED939B /* Model.swift */; };
+		438BE0C126B6A15400ED939B /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438BE0C026B6A15400ED939B /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		438BE0B326B69D7300ED939B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		438BE0B626B69D7300ED939B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		438BE0B826B69D7300ED939B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438BE0BE26B6A14600ED939B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		438BE0C026B6A15400ED939B /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 				438BE0AC26B69D7000ED939B /* SceneDelegate.swift */,
 				438BE0AE26B69D7000ED939B /* ViewController.swift */,
 				438BE0B026B69D7000ED939B /* Main.storyboard */,
+				438BE0C026B6A15400ED939B /* Presenter.swift */,
 				438BE0B326B69D7300ED939B /* Assets.xcassets */,
 				438BE0B526B69D7300ED939B /* LaunchScreen.storyboard */,
+				438BE0BE26B6A14600ED939B /* Model.swift */,
 				438BE0B826B69D7300ED939B /* Info.plist */,
 			);
 			path = MinimalMVP;
@@ -140,6 +146,8 @@
 				438BE0AF26B69D7000ED939B /* ViewController.swift in Sources */,
 				438BE0AB26B69D7000ED939B /* AppDelegate.swift in Sources */,
 				438BE0AD26B69D7000ED939B /* SceneDelegate.swift in Sources */,
+				438BE0BF26B6A14600ED939B /* Model.swift in Sources */,
+				438BE0C126B6A15400ED939B /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
